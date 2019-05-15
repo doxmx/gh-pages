@@ -1,4 +1,4 @@
-baseurl = "https://pages.gitub.com/tonyskapunk/gh-pages/"
+baseurl = "https://doxmx.org/gh-pages/"
 theme = "../.."
 builddrafts = true
 canonifyurls = true
