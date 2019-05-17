@@ -34,7 +34,7 @@ cp themes/cocoa-eh-hugo-theme/exampleSite/config.toml .
 
 - Modify `config.toml` to include: 
 ```
-  baseurl = "https://pages.github.com/<username>/gh-pages/"
+  baseurl = "https://pages.github.io/<username>/gh-pages/"
   ## OR org gh pages is enabled *and* domain has been verified, then use
   baseurl = "https://doxmx.org/gh-pages/"
   publishDir = "docs"
@@ -53,7 +53,7 @@ git commit -m "First build" .
 
 - Add remote repo:
 ```
-git add remote origin git@github.com:<username>/gh-pages.git
+git remote add origin git@github.com:<username>/gh-pages.git
 
 ## OR the org
 
@@ -71,7 +71,7 @@ git push origin master
 - Enable GH pages https://github.com/&lt;username&gt;/gh-pages/settings
   Choose: Source: "master branch /docs folder"
 
-- Page should be available at: https://pages.github.com/&lt;username&gt;/gh-pages/
+- Page should be available at: https://pages.github.io/&lt;username&gt;/gh-pages/
 
   OR
 
@@ -110,6 +110,5 @@ git add content/posts/how-to-setup-gh-pages.md docs/**
 git commit -m "Create how to for gh pages" .
 git push origin master
 ```
-
 
 
